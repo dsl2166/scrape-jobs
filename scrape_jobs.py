@@ -118,6 +118,7 @@ if __name__ == "__main__":
     jobs = {
         "Coursera": get_coursera_jobs(headers),
         "Khan Academy": get_khanacademy_jobs(headers),
+        "Udemy": get_udemy_jobs(headers),
         "EdX": get_edx_jobs(headers),
         "Duolingo": get_duolingo_jobs(headers),
         "Teachers Pay Teachers": get_tpt_jobs(headers),
